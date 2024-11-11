@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: wheat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1, h2 {
+    color: black;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: wheat;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+p, li {
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
+a, button {
+    color: black;
+    background-color: wheat;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover, button:hover {
+    background-color: black;
+    color: wheat;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 0 auto;
+}
+
+p a, li a {
+    display: inline-block;
+    margin-top: 10px;
+}
